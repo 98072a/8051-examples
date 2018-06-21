@@ -5,7 +5,7 @@
  * reset and presence pulses
  * @return 1 for success and 0 for fail
  */
-__bit one_wire_reset();
+__bit one_wire_init();
 
 /**
  * one wire write function, LSB

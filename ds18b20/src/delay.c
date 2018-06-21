@@ -10,9 +10,3 @@ void delay(unsigned int t)
     for(j=0;j<103;j++);
   }
 }
-
-void delay_us(unsigned int t)
-{
-  t -= 10;
-  while(t--) __nop();
-}
